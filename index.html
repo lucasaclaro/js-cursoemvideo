@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aulas - Curso em vídeo</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    <div class="aula">
+        <h2>Formatando strings</h2>
+        <div class="conteudo">
+            <p>.length - quantidade de caracteres da string</p>
+            <input type="text" name="" id="length">
+            <input id="botao" type="button" value="Ok" onclick="funcaoLength()">
+            <div class="resultado" id="resultado-length">
+            </div>
+        </div>
+
+
+        <div class="conteudo">
+            <p>.toUpperCase() - tudo para letras maiúsculas</p>
+            <input type="text" name="" id="toUpperCase">
+            <input id="botao" type="button" value="Ok" onclick="funcaoToUpperCase()">
+            <div class="resultado" id="resultado-toUpperCase">
+            </div>
+        </div>
+
+        <div class="conteudo">
+            <p>.toLowerCase() - tudo para letras minúsculas</p>
+            <input type="text" name="" id="toLowerCase">
+            <input id="botao" type="button" value="Ok" onclick="funcaoToLowerCase()">
+            <div class="resultado" id="resultado-toLowerCase">
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="aula">
+        <h2>Formatando números</h2>
+        <div class="conteudo">
+            <p>.toFixed(2) - quantidade de casas decimais a ser informada dentro dos parênteses</p>
+            <input type="number" id="toFixed">
+            <input id="botao" type="button" value="Ok" onclick="funcaoToFixed()">
+            <div class="resultado" id="resultado-toFixed">                
+            </div>
+        </div>
+
+        <div class="conteudo">
+            <p>.replace(' . ', ' , ') - é possível substituir uma coisa por outra, por exemplo, um ponto por uma vírgula</p>
+            <input type="number" id="replace">
+            <input id="botao" type="button" value="Ok" onclick="funcaoReplace()">
+            <div class="resultado" id="resultado-replace">                
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="aula">
+        <h2>Operadores aritméticos</h2>
+        <div class="conteudo">
+            <p>+ Soma</p>
+            <p>- Divisão</p>
+            <p>* Multiplicação</p>
+            <p>/ Divisão</p>
+            <p>% Resto da divisão</p>
+            <p>** Potenciação</p>
+            <input type="number" id="valorUm" placeholder="Valor Um">
+            <input type="number" id="valorDois" placeholder="Valor Dois">
+            <input id="botao" type="button" value="Ok" onclick="funcaoCalcular()" >
+            <div class="resultado" id="resultado-operadores">                
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="aula">
+        <h2>Eventos DOM</h2>
+        <div class="conteudo"></div>
+        <div>
+            <p id="conteudo-interaja">Interaja</p>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
